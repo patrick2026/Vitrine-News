@@ -40,3 +40,18 @@ h2,
 h3 {
   font: inherit;
 }
+
+.container {
+  max-width: 1280px;
+  padding-inline: 32px;
+  margin-inline: auto;
+}
+
+/*classe utilitaria => quando tenho apenas uma classe, vai fazer apenas uma coisa*/
+.grid {
+  display: grid;
+}
+
+.gri-flow-col {
+  grid-auto-flow: column;
+}
